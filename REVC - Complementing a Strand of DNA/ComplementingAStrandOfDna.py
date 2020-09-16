@@ -1,5 +1,6 @@
 f = open('rosalind_revc.txt', 'r')
 dna = f.read()
+f.close()
 dna1 = dna[::-1]
 d = len(dna1)
 dna2 = list(dna1)
